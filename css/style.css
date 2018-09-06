@@ -1,0 +1,119 @@
+/* Optional (for testing purpose) */
+body {
+  height: 2000px;
+  background-color: #CFD8DC;
+}
+
+/* NAV */
+#navbar {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(#7ed56f, #28b485);
+  z-index: 10;
+}
+#nav-btn {
+  cursor: pointer;
+  position: fixed;
+  top: 10%;
+  left: 85%;
+  background-color: white;
+  color: #777;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 1em;
+  font-size: 1.5rem;
+  line-height: 0.7em;
+  z-index: 100;
+  transition: transform 300ms;
+}
+#nav-btn:hover {
+  transform: scale(1.1);
+}
+.nav-links {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  list-style: none;
+  text-align: center;
+}
+.nav-link {
+  display: block;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  transition: all 200ms;
+}
+.nav-link:hover {
+  background-color: white;
+  color: #5ec978;
+  transform: translate(10%, 0);
+}
+.hide {
+  display: none;
+}
+/*NAV ABOVE*/
+.user {
+    width: 50px;
+    height: 50px;
+    left: 15%;
+    border-radius: 50%;
+}
+
+#home{
+    height:600px;
+    width: auto;
+    text-align: center;
+}
+
+    #home .centered-home {
+    bottom:100px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width:auto; /* Full width */
+   
+}
+
+
+
+#about{
+    height: 600px;
+    width: auto;
+    border-color: aqua;
+    text-align: center;
+}
+#contact{
+    height: 600px;
+    width: auto;
+    border-color: blue;
+    text-align: center;
+}
+#home-sect{
+    min-height: 300px;
+    background: url(../img/theme11.jpg) no-repeat;
+    border: 3px groove red;
+    padding: 10px;
+    border-radius: 10px;
+}
+#centered-home{
+    text-align: center;
+    color: #ffffff;
+}
+ #home-cont{
+    height: 300px;
+    background-color: black;
+    min-height: 300px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: auto;
+}
