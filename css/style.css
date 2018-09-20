@@ -1,5 +1,5 @@
 body {
-    height: 6050px;
+    height: 7250px;
 	margin:0;
 	padding:0;
 	background:#fff;
@@ -264,10 +264,21 @@ nav ul li a:hover {
 	text-align: center;
 }
 #jscount{
-    height: 350px;
+    height: 900px;
     width:100%;
 	margin-top:10px;
 	font-size:20px;
 	color#333;
 	text-align: center;
+}
+#contact{
+    height: 650px;
+    width:100%;
+	margin-top:10px;
+	font-size:20px;
+	color#333;
+	text-align: center; 
+}
+.contact-cont{
+    
 }
