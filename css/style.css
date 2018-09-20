@@ -176,39 +176,26 @@ nav ul li a:hover {
   position: absolute;
   display: block;
   top: 2em;
-  
   width: 60%;
-  
   font-size: 2em;
-
-  -webkit-animation-duration: 20s;
-
-          animation-duration: 20s;
+ -webkit-animation-duration: 20s;        
   -webkit-animation-timing-function: ease-in forwards;
-          animation-timing-function: ease-in forwards;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+          
+  -webkit-animation-iteration-count: 0.1;
+         
 }
 
 .item-1{
-  -webkit-animation-name: anim-1;
-          animation-name: anim-1;
-    
+  -webkit-animation-name: anim-1;   
 }
-
-
+.content .home-cont .item p{
+    text-align: center;
+}
 @-webkit-keyframes anim-1 {
   0%, 8.3% { left: -50%; opacity: 0; }
   8.3%,25% { left: 25%; opacity: 1; }
   33.33%, 100% { left: -60%; opacity: 0; }
 }
-
-/*@keyframes anim-1 {
-  0%, 8.3% { left: -50%; opacity: 0; }
-  8.3%,25% { left: 25%; opacity: 1; }
-  33.33%, 100% { left: -60%; opacity: 0; }
-}
-*/
 /*sections*/
 #about{
     height: 700px;
