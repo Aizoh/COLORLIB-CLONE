@@ -1,5 +1,5 @@
 body {
-    height: 2600px;
+    height: 6050px;
 	margin:0;
 	padding:0;
 	background:#fff;
@@ -248,7 +248,7 @@ nav ul li a:hover {
 	text-align: center;
 }
 #skills{
-    height: 300px;
+    height: 500px;
     width:100%;
 	margin-top:10px;
 	font-size:20px;
@@ -256,7 +256,7 @@ nav ul li a:hover {
 	text-align: center;
 }
 #project{
-    height: 550px;
+    height: 3800px;
     width:100%;
 	margin-top:10px;
 	font-size:20px;
