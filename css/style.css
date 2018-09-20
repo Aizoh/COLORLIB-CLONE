@@ -1,5 +1,5 @@
 body {
-    height: 7250px;
+    height: 7650px;
 	margin:0;
 	padding:0;
 	background:#fff;
@@ -264,7 +264,7 @@ nav ul li a:hover {
 	text-align: center;
 }
 #jscount{
-    height: 900px;
+    height: 1400px;
     width:100%;
 	margin-top:10px;
 	font-size:20px;
