@@ -29,23 +29,26 @@ nav {
 nav ul {
 	text-align:center;
 }
-nav ul li {
+/*nav ul li {
+    padding-top: 10px;
 	display:inline-block;
-}
+    letter-spacing: 5px;
+    font-weight: 400 px;
+    padding-left: 62px;
+    position: relative;
+    float: left;
+}*/
 nav ul li a {
 	color:#fff;
 	display:inline-block;
 	padding:1em 3em;
 	text-decoration:none;
-	border-bottom:2px solid #fff;
-	transition-property:all .2s linear 0s;
-	-moz-transition:all .2s linear 0s;
-	-webkit-transition:all .2s linear 0s;
-	-o-transition:all .2s linear 0s;
-	font-size:16px;
+	font-size:20px;
+    float: left;
 }
 nav ul li a:hover {
-	color: #34B484;
+	text-decoration: none;
+    color:#fff;
 }
 /*styling open close button*/
 .button {
@@ -168,9 +171,8 @@ nav ul li a:hover {
 .content.home-cont{
 
 }
-.item-1, 
-.item-2, 
-.item-3 {
+.item-1
+ {
   position: absolute;
   display: block;
   top: 2em;
@@ -179,29 +181,21 @@ nav ul li a:hover {
   
   font-size: 2em;
 
-  -webkit-animation-duration: 40s;
+  -webkit-animation-duration: 20s;
 
-          animation-duration: 40s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: ease-in forwards;
+          animation-timing-function: ease-in forwards;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 .item-1{
   -webkit-animation-name: anim-1;
           animation-name: anim-1;
+    
 }
 
-.item-2{
-  -webkit-animation-name: anim-2;
-          animation-name: anim-2;
-}
-
-.item-3{
-  -webkit-animation-name: anim-3;
-          animation-name: anim-3;
-}
 
 @-webkit-keyframes anim-1 {
   0%, 8.3% { left: -50%; opacity: 0; }
@@ -209,35 +203,12 @@ nav ul li a:hover {
   33.33%, 100% { left: -60%; opacity: 0; }
 }
 
-@keyframes anim-1 {
+/*@keyframes anim-1 {
   0%, 8.3% { left: -50%; opacity: 0; }
   8.3%,25% { left: 25%; opacity: 1; }
   33.33%, 100% { left: -60%; opacity: 0; }
 }
-
-@-webkit-keyframes anim-2 {
-  0%, 33.33% { left: -50%; opacity: 0; }
-  41.63%, 58.29% { left: 25%; opacity: 1; }
-  66.66%, 100% { left: -60%; opacity: 0; }
-}
-
-@keyframes anim-2 {
-  0%, 33.33% { left: -50%; opacity: 0; }
-  41.63%, 58.29% { left: 25%; opacity: 1; }
-  66.66%, 100% { left: -60%; opacity: 0; }
-}
-
-@-webkit-keyframes anim-3 {
-  0%, 66.66% { left: -50%; opacity: 0; }
-  74.96%, 91.62% { left: 25%; opacity: 1; }
-  100% { left: -60%; opacity: 0; }
-}
-
-@keyframes anim-3 {
-  0%, 66.66% { left: -50%; opacity: 0; }
-  74.96%, 91.62% { left: 25%; opacity: 1; }
-  100% { left: -60%; opacity: 0; }
-}
+*/
 /*sections*/
 #about{
     height: 700px;
